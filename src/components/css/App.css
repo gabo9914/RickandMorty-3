@@ -12,12 +12,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("/images/Header.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .image-logo{
-    height: 465px;
+    min-width: 320px;
+    min-height: 465px;
+    background-size: cover;
 }
 
 .box-buttom{

@@ -19,7 +19,7 @@ const ResidentCard = ({ residentUrl }) => {
   }, []);
 
   return (
-    <article className="card-box flex flex-col">
+    <article className="card-box mr-2 ml-2 flex flex-col">
       <header className=" flex flex-col items-center">
         <div className=" status-box flex justify-center items-center gap-2 p-2">
           <div

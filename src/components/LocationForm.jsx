@@ -1,13 +1,11 @@
 import './css/App.css'
 const LocationForm = ({ handleSubmit }) => {
   return (
-    <header className="imageHeader w-screen m-0">
-      <div>
-        <img className='image-logo' src="./images/Logo-min.png"/>
-      </div>
+    <header className=" flex flex-col  imageHeader w-screen m-0">
+        <img className='image-logo sm: w-screen' src="./images/Logo-min.png"/>
       <form className=' flex justify-center' onSubmit={handleSubmit}>
         <input
-          className=" box-input text-black"
+          className=" w-60 text-black sm:box-input"
           min={1}
           id="newLocation"
           max={126}
@@ -15,7 +13,7 @@ const LocationForm = ({ handleSubmit }) => {
           required
           type="number"
         />
-        <button className='box-buttom  bg-green-400 '>Search</button>
+        <button className=' w-35 bg-green-400 sm:box-buttom'>Search</button>
       </form>
     </header>
   );

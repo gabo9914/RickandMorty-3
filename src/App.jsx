@@ -30,7 +30,7 @@ function App() {
   
 
   return (
-    <main className='main flex flex-col items-center gap-2 min-h-screen text-white'>
+    <main className='min-h-screen w-screen text-white flex flex-col items-center gap-2 sm: main '>
       <LocationForm handleSubmit= {handleSubmit}/>
       <LocationInfo currentLocation = {currentLocation}/>
       <ResidentList residents = {currentLocation?.residents ?? []}/>
