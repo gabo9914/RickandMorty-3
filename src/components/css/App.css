@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Oswald:wght@300&display=swap');
 
 .main{
-    background-image: url("./images/Header.png");
+    background-image: url("/images/Header.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -12,7 +12,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("./images/Header.png");
+    background-image: url("/images/Header.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
