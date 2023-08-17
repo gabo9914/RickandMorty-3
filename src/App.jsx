@@ -1,11 +1,11 @@
-import { useEffect, useState } from 'react'
-import './components/css/App.css'
-import { getRamdomDimension } from './utils/functionUtil'
-import axios from 'axios'
-import LocationForm from './components/locationForm'
-import LocationInfo from './components/locationInfo'
-import ResidentList from './components/residentList'
-import Pagination from './components/Pagination'
+import { useEffect, useState } from 'react';
+import './components/css/App.css';
+import { getRamdomDimension } from './utils/functionUtil';
+import axios from 'axios';
+import LocationForm from './components/LocationForm';
+import LocationInfo from './components/LocationInfo';
+import ResidentList from './components/ResidentList';
+
 
 function App() {
   const [currentLocation, setCurrentLocation] = useState(null)
