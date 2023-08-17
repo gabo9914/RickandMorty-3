@@ -21,7 +21,7 @@ const ResidentList = ({ residents }) => {
 
   return (
     <section>
-      <section className=" flex flex-col gap-3 sm:grid grid-cols-4 grid-rows-auto m-3">
+      <section className=" flex flex-col gap-10 sm:grid grid-cols-4 grid-rows-auto gap-x-2 gap-y-5 m-3">
         {residentsInPage.map((resident) => (
           <ResidentCard key={resident} residentUrl={resident} />
         ))}

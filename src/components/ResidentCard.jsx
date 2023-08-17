@@ -33,7 +33,7 @@ const ResidentCard = ({ residentUrl }) => {
       </header>
       <section className=" box-ul">
         <h3 className=" text-center font-extrabold text-xl text-black">{residentInfo?.name}</h3>
-        <ul>
+        <ul className="box-ul">
           <div className="list-item-o">
             <div className="box1"><span>Species:</span> </div>
             <div className="box2">{residentInfo?.species}</div>
