@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&family=Oswald:wght@300&display=swap');
+
+.main{
+    background-image: url("./images/Header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imageHeader{
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/Header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image-logo{
+    height: 465px;
+}
+
+.box-buttom{
+    width: 80px;
+    height: 25px;
+    font-family: 'Fira Code', monospace;
+    border: Solid 1px #8EFF8B;
+}
+
+.info-location{
+    background-color: black;
+
+}
+.box-input{
+    width: 520px;
+    height: 25px; 
+    border: Solid 1px #8EFF8B;
+}
+.status-box{
+    width: 115px;
+    height: 32px;
+    background-color: rgba(2, 10, 2, 0.8);
+    border: Solid 1px #8EFF8B;
+
+}
+
+.card-box{
+    border: Solid 1px #8EFF8B;
+}
+
+.list-item-o {
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+    
+  }
+.box1{
+    width: 100px;
+    height: 21px
+}
+.box2 {
+    width: 186px;
+    height: 21px;
+}
+.box-ul{
+    background-color: rgba(18, 62, 18, 0.8);
+}
